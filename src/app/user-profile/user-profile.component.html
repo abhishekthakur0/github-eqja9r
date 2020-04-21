@@ -30,8 +30,10 @@
             <!-- TODO: Change the input type of age to a number field -->
               <div class="col-md-3 pr-4">
                 <div class="form-group">
-                  <label>What's your age?</label>
-                  <input type="text" name="age" class="form-control" placeholder="32">
+                  <label>What's your age?
+                    <span class="badge badge-pill badge-secondary" ngbTooltip="Enter Your age in number">i</span>
+                  </label>
+                  <input type="number" name="age" class="form-control" placeholder="32">
                 </div>
               </div>
 
@@ -83,6 +85,9 @@
                   <label>
                     Blood Pressure level
                     <!-- TODO: Add Tooltip for the Blood Pressure -->
+                    <span class="badge badge-pill badge-secondary" ngbTooltip="Blood Pressure is one of the vital signs, along with raspiratory rate, heart rate, oxygen saturation, and body temperature, can be measured in mmHg">
+                      i
+                    </span>
                     
                   </label>
    
@@ -202,7 +207,9 @@
                 <div class="form-group">
                     <label>Thalassemia level
                         <!-- TODO: Add Tooltip for the Thalassemia Level -->
-                        
+                        <span class="badge badge-pill badge-secondary" ngbTooltip="Thalassemia is an inhirated blood disorder in which the body makes an abnormal form of hemoglobin results in excessive destruction of red blood cells">
+                          i
+                        </span>
                     </label>
                   <input type="text" class="form-control" name="" placeholder="1-3"
                     value="">
@@ -373,6 +380,9 @@
 
             <div class="appointment-btn">
               <!-- TODO: Add a button below to Book and Appointment with Doctor 👨‍⚕️👩‍⚕️🩺-->
+              <a href='https://www.practo.com/' class="btn btn-info" target="_blank">
+                Book Appointment
+              </a>
              
             </div>
 

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 declare interface RouteInfo {
     path: string;
@@ -17,6 +18,7 @@ export const ROUTES: RouteInfo[] = [
 
     //TODO: Add the Settings Link
     //Icon Class Required: 'fas fa-cogs'
+    {path:'/typography', title: 'Setting', icon: 'fas fa-cogs', class: ''}
     
 
     // { path: '/icons', title: 'Icons',  icon:'education_atom', class: '' },
